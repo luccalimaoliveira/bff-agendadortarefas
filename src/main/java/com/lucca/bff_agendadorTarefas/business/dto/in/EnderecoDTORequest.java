@@ -1,4 +1,4 @@
-package com.lucca.bff_agendadorTarefas.business.dto;
+package com.lucca.bff_agendadorTarefas.business.dto.in;
 
 import lombok.*;
 
@@ -7,9 +7,8 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class EnderecoDTO {
+public class EnderecoDTORequest {
 
-    private Long id;
     private String rua;
     private String numero;
     private String complemento;
